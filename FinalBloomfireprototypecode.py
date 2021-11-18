@@ -168,14 +168,7 @@ def main(req):
         headers=headers
     )
 
-req = {
-    'state': {},
-    'secrets': {
-        'api_key': '0d2168dd2079e8ef1e4e63fc13e8b53d801840ca',
-        'email': 'ITdev@aseaglobal.com'
-    }
 
-}
 out = main(req)   
 print(out)
 
